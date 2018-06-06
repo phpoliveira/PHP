@@ -1,14 +1,14 @@
 <form>
   <input type="text" name="nome">
   <input type="date" name="nascimento">
-  <input type="submit" name="OK">
+  <input type="submit" value="OK">
 </form>
 <?php
-if (isset($_get)){
+if (isset($_GET)){
 
-  foreach($_get as $key => $value){
+  foreach($_GET as $key => $value){
 
-    echo "Nome do campo: " . $key;
+    echo "Nome do campo: " . $key . "<br>";
     echo "Valor do campo : " . $value;
     echo "<hr>";
   }
