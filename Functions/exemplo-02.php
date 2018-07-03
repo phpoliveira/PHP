@@ -11,15 +11,15 @@ echo ola("Henrique");
 echo ola("João");
 
 echo "<br><br>";
---------------------------------------------------------------------------------
+//------------------------------------------------------------------------------
 
-function oi($txt = "mundo"){
+function oi($txt = "Mundo"){
 
   return "Olá $txt!" . "<br>";
 
 }
 
-echo ola("Paulo");
-echo ola("Henrique");
-echo ola();
+echo oi("Paulo");
+echo oi("Henrique");
+echo oi();
 ?>
