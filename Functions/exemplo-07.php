@@ -5,11 +5,11 @@ function soma (float ...$valores):string{
 
 }
 
-var_dump(soma(2, 2));
-echo "<br>";
+
 echo soma(20, 26);
 echo "<br>";
 echo soma(2.2, 5.7);
 echo "<br>";
-
+var_dump(soma(2, 2));
+echo "<br>";
 ?>
